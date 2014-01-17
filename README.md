@@ -1,10 +1,10 @@
 yii-opauth
 ==========
 
-# Opauth moduel for Yii PHP Framework
+# Opauth module for Yii Framework
 
-Steps
-=====
+##Installation
+
 1. Copy the auth folder to your app's protected/modules/ folder.
 2. Open your app's config file (default: protected/config/main.php) and add the following to the 'modules' array,
 ```php
@@ -34,7 +34,9 @@ the default urlManager would look like this:
 
 PS make sure there's no session_start() anywhere (since Yii auto-starts sessions). If there is, simply do this:
 ```
-if(isset($_SESSION)){
-	session_start();
+if(!isset($_SESSION)){
+ session_start();
 }
 ```
+## Issues
+Tweet me, maybe? [@amitabhdhiwal](http://twitter.com/amitabhdhiwal)
