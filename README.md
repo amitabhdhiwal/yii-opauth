@@ -31,3 +31,10 @@ the default urlManager would look like this:
 ```
 
 4. go to your /auth/login/twitter or /auth/login/facebook, and it should work! :D
+
+PS make sure there's no session_start() anywhere (since Yii auto-starts sessions). If there is, simply do this:
+```
+if(isset($_SESSION)){
+	session_start();
+}
+```
