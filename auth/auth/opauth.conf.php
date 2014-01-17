@@ -13,7 +13,7 @@ $config = array(
  *  - eg. if Opauth is reached via http://example.org/auth/, path is '/auth/'
  *  - if Opauth is reached via http://auth.example.org/, path is '/'
  */
-	'path' => '/ultimatecustom/index.php?r=auth/login/',
+	'path' => '/auth/',
 
 /**
  * Callback URL: redirected to after authentication, successful or otherwise
@@ -46,18 +46,18 @@ $config = array(
 		// Define strategies and their respective configs here
 		
 		'Facebook' => array(
-			'app_id' => '486474624776010',
-			'app_secret' => 'd9cd44de6e228c5674f686291ecd672f'
+			'app_id' => '',
+			'app_secret' => ''
 		),
 		
 		'Google' => array(
-			'client_id' => '319992525504.apps.googleusercontent.com',
-			'client_secret' => 'LM5iC2-GmVXgGy6IwsMTY_Qi'
+			'client_id' => '',
+			'client_secret' => ''
 		),
 
 		'Twitter' => array(
-			'key' => 'h3iYDYr82bIQpRNIZ023qg',
-			'secret' => 'UFL0QRp93sqk6Vi6nSdNWXjhn2vK2pnCCg8T5gYFt7Q'
+			'key' => '',
+			'secret' => ''
 		),
 				
 	),

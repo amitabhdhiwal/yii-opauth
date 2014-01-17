@@ -52,8 +52,8 @@ class AuthModule extends CWebModule
             ),
 
             'Twitter' => array(
-                'key' => '',
-                'secret' => ''
+                'key' => 'h3iYDYr82bIQpRNIZ023qg',
+                'secret' => 'UFL0QRp93sqk6Vi6nSdNWXjhn2vK2pnCCg8T5gYFt7Q'
             ),
 
         ),
