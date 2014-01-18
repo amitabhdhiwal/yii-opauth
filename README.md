@@ -7,12 +7,14 @@ yii-opauth
 
 1. Copy the auth folder to your app's protected/modules/ folder.
 2. Open your app's config file (default: protected/config/main.php) and add the following to the 'modules' array,
-```php
+```
 'auth'=>array(
 'config'=> //the Opauth's config array can be pasted as it is, with your keys.
 )
 ```
-
+```
+note: 'path' should be '/auth/login/'.
+```
 3. Your urlManager (in the config file) should have the following rule
 ```php
 'auth/login/*'=>array('auth/login'),
