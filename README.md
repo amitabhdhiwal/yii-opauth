@@ -34,7 +34,7 @@ the default urlManager would look like this:
 
 4. go to your /auth/login/twitter or /auth/login/facebook, and it should work! :D
 
-PS make sure there's no session_start() anywhere, including the strategies you download from Opauth's site, (since Yii auto-starts sessions). If there is, simply add this whereever there's a sessesion_start().:
+PS make sure there's no session_start() anywhere, including in the strategies you download from Opauth's site, (since Yii auto-starts sessions). If there is, simply add this whereever there's a sessesion_start().:
 ```
 if(!isset($_SESSION)){
  session_start();
